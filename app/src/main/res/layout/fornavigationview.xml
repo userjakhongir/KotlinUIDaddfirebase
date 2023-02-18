@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:src="@drawable/ansdrooidstudio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"></ImageView>
+
+    <TextView
+        android:id="@+id/textviewfromheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"></TextView>
+
+</RelativeLayout>
